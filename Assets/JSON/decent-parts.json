@@ -1,0 +1,619 @@
+[
+  {
+    "autoPart": "Tyres & Wheels",
+    "description": "Varirty of autoparts includes Tyres, Nuts and Wheels Aceesesories",
+    "image_url": "",
+    "id": 1,
+    "autoSubPart": [
+      {
+        "c_id": 1,
+        "name": "Wheel Acessories",
+        "description": "Variety of different Wheel Acessories",
+        "url": "../assets/images/json-url/1/Wheel-Cover-1.jpg",
+        "category": "parts",
+        "products": [
+          {
+            "p_id": 70,
+            "name": "Wheel Cover ABS – 15 inches – WK1-1SL-15",
+            "description": "The wheel cap is designed to perfection and sets your car apart from other drivers",
+            "price": 4000,
+            "stock amount": 20,
+            "url1": "../assets/images/json-url/1/Wheel-Cover-1.jpg",
+            "url2": "../assets/images/json-url/1/Wheel-Cover-2.jpg"
+          },
+          {
+            "p_id": 71,
+            "name": "Turtle Wax Wet",
+            "description": "Active foam formula encapsulates dirt and grime before lifting it from the tyre.",
+            "price": 1500,
+            "stock amount": 25,
+            "url1": "../assets/images/json-url/1/Turtle-Wax-Wet&Black-Foam-1.jpg",
+            "url2": "../assets/images/json-url/1/Turtle-Wax-Wet&Black-Foam-2.jpg"
+          },
+          {
+            "p_id": 72,
+            "name": "TURTLE WAX WET’N BLACK ULTRA WET TIRE SHINE",
+            "description": "Protects against harmful UV rays",
+            "price": 1000,
+            "stock amount": 22,
+            "url1": "../assets/images/json-url/1/Turtle-Wax-Ultra-Wet-Tire-1.jpg",
+            "url2": "../assets/images/json-url/1/Turtle-Wax-Ultra-Wet-Tire-2.jpg"
+          },
+          {
+            "p_id": 73,
+            "name": "Bronze Wheel Cap",
+            "description": " The bronze is excellent, almost a satin/matte finish to it with a really nice subtle sparkle when in the sunlight.",
+            "price": 4000,
+            "stock amount": 30,
+            "url1": "../assets/images/json-url/1/Brounze-Wheel-Cup-1.jpg",
+            "url2": "../assets/images/json-url/1/Brounze-Wheel-Cup-2.jpg"
+          },
+          {
+            "p_id": 74,
+            "name": "Chrome Wheel Cap",
+            "description": "This custom wheelcover has a chrome finish and is designed to fit cars with 16 inch (r-16) tires.",
+            "price": 2000,
+            "stock amount": 10,
+            "url1": "../assets/images/json-url/1/Chrome-Wheel-Cap-1.jpg",
+            "url2": "../assets/images/json-url/1/Chrome-Wheel-Cap-2.jpg"
+          },
+          {
+            "p_id": 75,
+            "name": "Center Wheel Hub Cap",
+            "description": "wheel hubs can also be useful for providing some protection for your wheels against the elements and the debris of the road.",
+            "price": 2000,
+            "stock amount": 40,
+            "url1": "../assets/images/json-url/1/Center-Wheel-Cap-1.jpg",
+            "url2": "../assets/images/json-url/1/Center-Wheel-Cap-2.jpg"
+          }
+        ]
+      },
+      {
+        "c_id": 2,
+        "name": "Nuts",
+        "description": "Variety of nuts for vehicles",
+        "url": "../assets/images/json-url/1/d1-spec-lugnuts-1.jpg",
+        "category": "parts",
+        "products": [
+          {
+            "p_id": 76,
+            "name": "D1 Spec Lug Nuts / Wheel Nuts",
+            "description": "d1 spec short wheel nuts m12x1 25 aluminum 36mm 35432 0d3",
+            "price": 1500,
+            "stock amount": 35,
+            "url1": "../assets/images/json-url/1/d1-spec-lugnuts-1.jpg",
+            "url2": "../assets/images/json-url/1/d1-spec-lugnuts-2.jpg"
+          },
+          {
+            "p_id": 77,
+            "name": "Rays Lug Nuts / Wheel Nuts",
+            "description": "Rays Lug Nuts / Wheel Nuts / Wheel Screws 1.5m",
+            "price": 3200,
+            "stock amount": 37,
+            "url1": "../assets/images/json-url/1/rays-lug-nuts-1.jpg",
+            "url2": "../assets/images/json-url/1/rays-lug-nuts-2.jpg"
+          },
+          {
+            "p_id": 78,
+            "name": "BLOX Spikes Lug Nuts / Wheel Nuts ",
+            "description": "BLOX Spikes Lug Nuts / Wheel Nuts / Wheel Screws Blue 1.25mm",
+            "price": 1800,
+            "stock amount": 20,
+            "url1": "../assets/images/json-url/1/spikes-lug-nuts-wheelnuts-1.jpg",
+            "url2": "../assets/images/json-url/1/spikes-lug-nuts-wheelnuts-2.jpg"
+          },
+          {
+            "p_id": 79,
+            "name": "Car Truck Aluminum Racing ",
+            "description": "Car Truck Aluminum Racing Colored Steel M12X1.5 Titanium Spike Wheel Lug Nuts",
+            "price": 1200,
+            "stock amount": 40,
+            "url1": "../assets/images/json-url/1/car-aluminium-nuts-1.jpeg",
+            "url2": "../assets/images/json-url/1/car-aluminium-nuts-2.jpeg"
+          }
+        ]
+      },
+      {
+        "c_id": 3,
+        "name": "Tyres",
+        "description": "Different Tyre Variety",
+        "url": "../assets/images/json-url/1/Bridgeston-tyre-1.jpg",
+        "category": "parts",
+        "products": [
+          {
+            "p_id": 65,
+            "name": "Bridgeston Tyre 14570-R12",
+            "description": "These tires deliver a thrilling ride for drivers who want the most out of their sports car or performance vehicle. ",
+            "price": 3000,
+            "stock amount": 30,
+            "url1": "../assets/images/json-url/1/Bridgestone-tyre-1.jpg",
+            "url2": "../assets/images/json-url/1/bridgestone-tyre-2.jpg"
+          },
+          {
+            "p_id": 66,
+            "name": "Continental Tyre 205-55-R16",
+            "description": "High Quality Continental Tyre for your Automobile.",
+            "price": 4000,
+            "stock amount": 25,
+            "url1": "../assets/images/json-url/1/Continental-tyre-1.jpg",
+            "url2": "../assets/images/json-url/1/Continental-tyre-2.jpg"
+          },
+          {
+            "p_id": 67,
+            "name": "Dunlop Tyre 31-10-50 R15 ",
+            "description": "Best Tyre For Your Vehicle",
+            "price": 4000,
+            "stock amount": 15,
+            "url1": "../assets/images/json-url/1/Dunlop-Tyre-1.jpg",
+            "url2": "../assets/images/json-url/1/Dunlop-Tyre-1.jpg"
+          },
+          {
+            "p_id": 68,
+            "name": "BF Goodrich",
+            "description": "The BF Goodrich provides incredible traction for rocks, mud and dirt and is great on slick surfaces.",
+            "price": 5000,
+            "stock amount": 10,
+            "url1": "../assets/images/json-url/1/BF-Goodrich-Tyre-1.jpg",
+            "url2": "../assets/images/json-url/1/BF-Goodrich-Tyre-2.jpg"
+          },
+          {
+            "p_id": 69,
+            "name": "YOKOHAMA GEOLANDAR M/T G003",
+            "description": "The tire offers an excellent all weather traction",
+            "price": 2800,
+            "stock amount": 13,
+            "url1": "../assets/images/json-url/1/yakohama-tyre-1.jpeg",
+            "url2": "../assets/images/json-url/1/yakohama-tyre-2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "autoPart": "Exterior",
+    "description": "Autoparts accessories use externally includes Window Visor, Truck Accessories and door handles,locks and accessories",
+    "image_url": "",
+    "id": 2,
+    "autoSubPart": [
+      {
+        "c_id": 1,
+        "name": "Window Visors",
+        "description": "Variety of sun visors",
+        "url": "../assets/images/json-url/2/honda-vezel-1.jpg",
+        "category": "Ex",
+        "products": [
+          {
+            "p_id": 16,
+            "name": "Honda Vezel 2013-2020 Premium Airpress",
+            "description": "Great visibility,Enhance the beauty of your Car. For Honda Vezel 2013-2020",
+            "price": 3500,
+            "stock_amount": 40,
+            "url1": "../assets/images/json-url/2/honda-vezel-1.jpg",
+            "url2": "../assets/images/json-url/2/honda-vezel-2.jpg"
+          },
+          {
+            "p_id": 17,
+            "name": "Toyota Hilux Vigo Champ Sun Visor",
+            "description": "Great visibility.Toyota Hilux Vigo Champ Sun Visor Model 2005-2016",
+            "price": 5800,
+            "stock_amount": 50,
+            "url1": "../assets/images/json-url/2/Toyota-Hilux-1.jpg",
+            "url2": "../assets/images/json-url/2/Toyota-Hilux-2.jpg"
+          },
+          {
+            "p_id": 18,
+            "name": "Daihatsu Cuore 2000-2012  Sun Visor",
+            "description": "Premium.Enhance the beauty of your car. For Daihatsu Cuore 2000-2012 ",
+            "price": 4500,
+            "stock_amount": 30,
+            "url1": "../assets/images/json-url/2/Daihatsu-Cuore-1.jpg",
+            "url2": "../assets/images/json-url/2/Daihatsu-Cuore-2.jpg"
+          }
+        ]
+      },
+      {
+        "c_id": 2,
+        "name": "Door Handles, Locks & Accessories",
+        "description": "Variety of accessories includes door handle and locka",
+        "url": "../assets/images/json-url/2/suzuki-door-handle-1.webp",
+        "category": "Ex",
+        "products": [
+          {
+            "p_id": 19,
+            "name": "Genuine Door Handle",
+            "description": "Suzuki Mehran Genuine Door Handle RLH. For Suzuki Mehran 1988-2012",
+            "price": 800,
+            "stock_amount": 30,
+            "url1": "../assets/images/json-url/2/suzuki-door-handle-1.jpg",
+            "url2": "../assets/images/json-url/2/suzuki-door-handle-2.jpg"
+          },
+          {
+            "p_id": 20,
+            "name": "Rear Door Left Side",
+            "description": "Toyota Genuine Rear Door Left Side For Toyota Corolla XLi 2015-2017",
+            "price": 70000,
+            "stock_amount": 20,
+            "url1": "../assets/images/json-url/2/rear-door-left-side-1.jpg",
+            "url2": "../assets/images/json-url/2/rear-door-left-side-2.jpg"
+          },
+          {
+            "p_id": 21,
+            "name": "Rear Door Right Side",
+            "description": "Toyota Genuine Rear Door right Side For Toyota Corolla XLi 2015-2017",
+            "price": 7000,
+            "stock_amount": 20,
+            "url1": "../assets/images/json-url/2/rear-door-right-side-1.jpg",
+            "url2": "../assets/images/json-url/2/rear-door-right-side-2.jpg"
+          },
+          {
+            "p_id": 22,
+            "name": "Door handle's",
+            "description": "Door handle's for Toyota surf/forerunner 1992",
+            "price": 6800,
+            "stock_amount": 40,
+            "url1": "../assets/images/json-url/2/door-handle-for-toyota-1.jpg",
+            "url2": "../assets/images/json-url/2/door-handle-for-toyota-2.jpg"
+          },
+          {
+            "p_id": 23,
+            "name": "Handle Cover Chrome",
+            "description": "Suzuki Alto Handle Cover Chrome - Model 2018-2020.",
+            "price": 1200,
+            "stock_amount": 45,
+            "url1": "../assets/images/json-url/2/suzuki-alto-handle-cover-1.jpg",
+            "url2": "../assets/images/json-url/2/suzuki-alto-handle-cover-2.jpg"
+          },
+          {
+            "p_id": 24,
+            "name": "Chrome Door Moulding",
+            "description": "Toyoto Alto Chrome Door Moulding - Model 2018-2020",
+            "price": 4000,
+            "stock_amount": 30,
+            "url1": "../assets/images/json-url/2/chrome-door-moulding-1.jpg",
+            "url2": "../assets/images/json-url/2/chrome-door-moulding-2.jpg"
+          },
+          {
+            "p_id": 25,
+            "name": "Door Guards Protector",
+            "description": "Universal Door Guards Protector Long 2 Piece ",
+            "price": 400,
+            "stock_amount": 40,
+            "url1": "../assets/images/json-url/2/door-guards-protector-1.jpg",
+            "url2": "../assets/images/json-url/2/door-guards-protector-2.jpg"
+          },
+          {
+            "p_id": 26,
+            "name": "Chrome Handle Covers",
+            "description": "Honda Civic Chrome Handle Covers - Model 2006-2012 ",
+            "price": 1200,
+            "stock_amount": 35,
+            "url1": "../assets/images/json-url/2/honda-civic-chrome-handle-covers-1.jpg",
+            "url2": "../assets/images/json-url/2/honda-civic-chrome-handle-covers-2.jpg"
+          }
+        ]
+      },
+      {
+        "c_id": 3,
+        "name": "Truck Accessories",
+        "description": "Accessories for truck and heavy vehicles",
+        "url": "../assets/images/json-url/2/truck-cab-top-cover-1.jpg",
+        "category": "Ex",
+        "products": [
+          {
+            "p_id": 27,
+            "name": "Truck Cab Top Cover",
+            "description": "Direct fit, Waterproof.Truck Cab Top Cover",
+            "price": 10000,
+            "stock_amount": 10,
+            "url1": "../assets/images/json-url/2/truck-cab-top-cover-1.jpg",
+            "url2": "../assets/images/json-url/2/truck-cab-top-cover-2.jpg"
+          },
+          {
+            "p_id": 28,
+            "name": "Truck Bed Rack ",
+            "description": "Truck Bed Rack, Powder coated. Material steel",
+            "price": 21000,
+            "stock_amount": 15,
+            "url1": "../assets/images/json-url/2/truck-bed-rack-1.jpg",
+            "url2": "../assets/images/json-url/2/truck-bed-rack-2.jpg"
+          },
+          {
+            "p_id": 29,
+            "name": "Truck Bed Rack Mount Kit ",
+            "description": "Includes (8) bolts, (8) nuts, and (8) washers",
+            "price": 8000,
+            "stock_amount": 20,
+            "url1": "../assets/images/json-url/2/truck-bed-rack-mount-kit-1.jpg",
+            "url2": "../assets/images/json-url/2/truck-bed-rack-mount-kit-2.jpg"
+          },
+          {
+            "p_id": 30,
+            "name": "Wheel Locks for Aftermarket Custom Wheels SUV Truck",
+            "description": "Set Veritek Black Acorn Bulge Tuner 1.75 Inch Wheel Locks for Aftermarket Custom Wheels SUV Truck ",
+            "price": 12000,
+            "stock_amount": 18,
+            "url1": "../assets/images/json-url/2/wheel-locks-1.jpg",
+            "url2": "../assets/images/json-url/2/wheel-locks-2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "autoPart": "Interior",
+    "description": "Autoparts accessories use internally like Mobile Electronics, Horns and Components, Switches, Relays, Wiring Components",
+    "image_url": "",
+    "id": 3,
+    "autoSubPart": [
+      {
+        "c_id": 1,
+        "name": "Mobile Electronics",
+        "description": "",
+        "url": "",
+        "category": "IN",
+        "products": [
+          {
+            "p_id": 1,
+            "name": "Car Audio Amplifier",
+            "description": "Car Audio Amplifier - Direct Fit, Sold individually",
+            "price": 4000,
+            "stock_amount": 20,
+            "url1": "../assets/images/json-url/3/car-audio-amplifier-1.jpg",
+            "url2": "../assets/images/json-url/3/car-audio-amplifier-2.jpg"
+          },
+          {
+            "p_id": 2,
+            "name": "Car Heater",
+            "description": "Water in Fuel Sensor Heating Element Without Water Level Sensor in Fuel Filter.",
+            "price": 2000,
+            "stock_amount": 40,
+            "url1": "../assets/images/json-url/3/heater-1.jpg",
+            "url2": "../assets/images/json-url/3/heater-2.jpg"
+          },
+          {
+            "p_id": 3,
+            "name": "Keyless Remote Case",
+            "description": "Keyless Remote Case to open and lock your car without using manual car keys ",
+            "price": 1800,
+            "stock_amount": 80,
+            "url1": "../assets/images/json-url/3/keyless-car-case-1.jpg",
+            "url2": "../assets/images/json-url/3/keyless-car-case-2.jpg"
+          }
+        ]
+      },
+      {
+        "c_id": 2,
+        "name": "Horns and Components",
+        "description": "",
+        "url": "",
+        "category": "IN",
+        "products": [
+          {
+            "p_id": 4,
+            "name": "Horns Kit",
+            "description": "Horn Compressor Installation Kit",
+            "price": 1900,
+            "stock_amount": 50,
+            "url1": "../assets/images/json-url/3/horns-kit-1.jpg",
+            "url2": "../assets/images/json-url/3/horns-kit-1.jpg"
+          },
+          {
+            "p_id": 5,
+            "name": "Coverlay",
+            "description": "Interior Restoration Kit",
+            "price": 2600,
+            "stock_amount": 10,
+            "url1": "../assets/images/json-url/3/coverlay-1.jpg",
+            "url2": "../assets/images/json-url/3/coverlay-2.jpg"
+          }
+        ]
+      },
+      {
+        "c_id": 3,
+        "name": "Switches, Relays, Wiring Components",
+        "description": "",
+        "url": "",
+        "category": "IN",
+        "products": [
+          {
+            "p_id": 7,
+            "name": "Mirror Switch",
+            "description": "Mirror Switch - Direct Fit, Sold individually",
+            "price": 3700,
+            "stock_amount": 35,
+            "url1": "../assets/images/json-url/3/mirror-switch-1.jpg",
+            "url2": "../assets/images/json-url/3/mirror-switch-2.jpg"
+          },
+          {
+            "p_id": 8,
+            "name": "Door Lock Switch",
+            "description": "Door Lock Switch - Direct Fit, Sold individually",
+            "price": 2000,
+            "stock_amount": 10,
+            "url1": "../assets/images/json-url/3/door-switch-1.jpg",
+            "url2": "../assets/images/json-url/3/door-switch-2.jpg"
+          },
+          {
+            "p_id": 9,
+            "name": "Relay",
+            "description": "Relay - Multi-purpose relay, Direct Fit, Sold individually",
+            "price": 2200,
+            "stock_amount": 12,
+            "url1": "../assets/images/json-url/3/relay-1.jpg",
+            "url2": "../assets/images/json-url/3/relay-1.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "autoPart": "Car Parts",
+    "description": "Varirty of autoparts includes Back and headlights, Mirrors and wiper blades",
+    "image_url": "",
+    "id": 4,
+    "autoSubPart": [
+      {
+        "c_id": 1,
+        "name": "Back & Head Lights",
+        "description": "Back and Headlights for different models",
+        "url": "../assets/images/json-url/4/toyoto-corolla-backlight-1.jpg",
+        "category": "parts",
+        "products": [
+          {
+            "p_id": 46,
+            "name": "Toyota Corolla TYC Back Light",
+            "description": "Imported and oem standard fitment. Can be installed in:Toyota Corolla 2014-2020",
+            "price": 4500,
+            "stock_amount": 30,
+            "url1": "../assets/images/json-url/4/toyoto-corolla-backlight-1.jpg",
+            "url2": "../assets/images/json-url/4/toyoto-corolla-backlight-2.jpg"
+          },
+          {
+            "p_id": 47,
+            "name": "Depo Head Light For Santro Club RH",
+            "description": "Imported. Can be installed in:Hyundai Santro 2003-2014",
+            "price": 6000,
+            "stock_amount": 45,
+            "url1": "../assets/images/json-url/4/hyndai-headlight-1.jpg",
+            "url2": "../assets/images/json-url/4/hyndai-headlight-2.jpg"
+          },
+          {
+            "p_id": 48,
+            "name": "Toyota Corolla NIKE Style Headlights ",
+            "description": "Imported. Can be installed in: Toyota Corolla Model 2014-2017",
+            "price": 1800,
+            "stock_amount": 25,
+            "url1": "../assets/images/json-url/4/toyota-corolla-nike-headlights-1.jpg",
+            "url2": "../assets/images/json-url/4/toyota-corolla-nike-headlights-2.jpg"
+          },
+          {
+            "p_id": 49,
+            "name": "Honda Civic Headlights",
+            "description": "Imported. Honda Civic Headlamps Full Nike Style – Model 2012-2016",
+            "price": 48000,
+            "stock_amount": 20,
+            "url1": "../assets/images/json-url/4/honda-civic-headlights-1.jpg",
+            "url2": "../assets/images/json-url/4/honda-civic-headlights-2.jpg"
+          },
+          {
+            "p_id": 50,
+            "name": "Honda Civic Back lights 4D HD597",
+            "description": "Imported. Honda Civic Back Lamp 4D HD597 - Model 2012-2016",
+            "price": 24000,
+            "stock_amount": 15,
+            "url1": "../assets/images/json-url/4/honda-civic-back-lights-1.jpg",
+            "url2": "../assets/images/json-url/4/honda-civic-back-lights-2.jpg"
+          }
+        ]
+      },
+      {
+        "c_id": 2,
+        "name": "Side Mirrors ",
+        "description": "Variety of Side Mirrors of different auto models",
+        "url": "../assets/images/json-url/4/toyota-taiwan-sidemirror-1.jpg",
+        "category": "parts",
+        "products": [
+          {
+            "p_id": 51,
+            "name": "Toyota Corolla Taiwan Side Mirror",
+            "description": "Taiwan made. Toyota Corolla Taiwan Side Mirror Xli, Gli, 2008-2014",
+            "price": 4800,
+            "stock_amount": 20,
+            "url1": "../assets/images/json-url/4/toyota-taiwan-sidemirror-1.jpg",
+            "url2": "../assets/images/json-url/4/toyota-taiwan-sidemirror-2.jpg"
+          },
+          {
+            "p_id": 52,
+            "name": "Toyota Vitz Side Mirror With Light",
+            "description": "Imported. Toyota Vitz Side Mirror With Light RH 2006-2012",
+            "price": 5800,
+            "stock_amount": 25,
+            "url1": "../assets/images/json-url/4/toyota-vitz-mirror-light-1.jpg",
+            "url2": "../assets/images/json-url/4/toyota-vitz-mirror-light-2.jpg"
+          },
+          {
+            "p_id": 53,
+            "name": "Carbon Fiber Side Mirror with Indicator",
+            "description": "Carbon Fiber Side Mirror with Indicator With Mirror Cover",
+            "price": 3000,
+            "stock_amount": 32,
+            "url1": "../assets/images/json-url/4/carbon-fiber-side-mirror-indicator-1.jpg",
+            "url2": "../assets/images/json-url/4/carbon-fiber-side-mirror-indicator-2.jpg"
+          },
+          {
+            "p_id": 54,
+            "name": "Honda Civic Carbon Fiber Side Mirror Cover",
+            "description": "Honda Civic Carbon Fiber Side Mirror Cover – Model 2016-2017",
+            "price": 3900,
+            "stock_amount": 20,
+            "url1": "../assets/images/json-url/4/honda-civic-carbon-fiber-side-mirror-1.jpg",
+            "url2": "../assets/images/json-url/4/honda-civic-carbon-fiber-side-mirror-2.jpg"
+          },
+          {
+            "p_id": 55,
+            "name": "Universal Front Parking Blind Spot Rear View Fender Mirror",
+            "description": "Imported.High quality plastic fender mirror for Toyota Fortuner, Toyota Prado, Land Cruiser, Vigo. ",
+            "price": 2000,
+            "stock_amount": 30,
+            "url1": "../assets/images/json-url/4/universal-front-mirror-1.jpg",
+            "url2": "../assets/images/json-url/4/universal-front-mirror-2.jpg"
+          },
+          {
+            "p_id": 56,
+            "name": "Mirror Indicator Light Honda City",
+            "description": "Imported. Mirror Indicator Light Honda City 2009-2020 - 34350-TM0-H01",
+            "price": 1600,
+            "stock_amount": 40,
+            "url1": "../assets/images/json-url/4/mirror-indicator-light-honda-city-1.jpg",
+            "url2": "../assets/images/json-url/4/mirror-indicator-light-honda-city-2.jpg"
+          }
+        ]
+      },
+      {
+        "c_id": 3,
+        "name": "Wiper Blades",
+        "description": "Variety of wiper blades for different auto models",
+        "url": "../assets/images/json-url/4/wiper-blades-1.jpg",
+        "category": "parts",
+        "products": [
+          {
+            "p_id": 57,
+            "name": "Maximus Premium Silicone Wiper Blades– 15 Inches",
+            "description": "Maximus Premium Silicone Wiper Blades – 15 Inches.Made with a high quality silicone rubber",
+            "price": 1200,
+            "stock_amount": 16,
+            "url1": "../assets/images/json-url/4/wiper-blades-1.jpg",
+            "url2": "../assets/images/json-url/4/wiper-blades–2.jpg"
+          },
+          {
+            "p_id": 58,
+            "name": "Maximus Premium Silicone Wiper Blades– 18 Inches",
+            "description": "Maximus Premium Silicone Wiper Blades–18 Inches. Made with a high quality silicone rubber",
+            "price": 1400,
+            "stock_amount": 35,
+            "url1": "../assets/images/json-url/4/wiper-blades-1.jpg",
+            "url2": "../assets/images/json-url/4/wiper-blades-2.jpg"
+          },
+          {
+            "p_id": 59,
+            "name": "Maximus Premium Silicone Wiper Blades– 19 Inches",
+            "description": "Maximus Premium Silicone Wiper Blades–19 Inches. Made with a high quality silicone rubber",
+            "price": 1600,
+            "stock_amount": 20,
+            "url1": "../assets/images/json-url/4/wiper-blades-1.jpg",
+            "url2": "../assets/images/json-url/4/wiper-blades-2.jpg"
+          },
+          {
+            "p_id": 60,
+            "name": "Maximus Premium Silicone Wiper Blades– 20 Inches",
+            "description": "Maximus Premium Silicone Wiper Blades–20 Inches. Made with a high quality silicone rubber",
+            "price": 1800,
+            "stock_amount": 10,
+            "url1": "../assets/images/json-url/4/wiper-blades-1.jpg",
+            "url2": "../assets/images/json-url/4/wiper-blades-2.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]
