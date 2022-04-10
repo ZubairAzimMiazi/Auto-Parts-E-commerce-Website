@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--  Meta  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <!--bootsrap style sheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- style sheet for complete website -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- font family Montserrat and roboto slab -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Roboto+Slab:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome icon link -->
+    <script src="https://kit.fontawesome.com/ca30ddfff9.js" crossorigin="anonymous"></script>
+    <!-- jquery link  -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https: //ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="loader">
+        <img id="loader-image" src="../assets/images/website-images/Spinner-1s-200px.gif" alt="Loading.." />
+    </div>
+    <header class="header">
+        <!-- first navbar contains about, contact us and add to cart -->
+        <nav class="navbar navbar-expand-lg fixed-top p-0 font-weight-bold mb-4">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="index.html">DECENT AUTO PARTS</a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example navbar-light" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent1">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto sm-ml-1">
+                    <!-- about us -->
+                    <li class="nav-item  pl-4 pl-lg-0 pl-md-4 pl-sm-4">
+                        <a class="nav-link d-flex flex-lg-column align-items-center" href="../index.html#about-us">
+                            <!-- About Us icon -->
+                            <span class="pr-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1.2"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#08415c">
+                                            <path
+                                                d="M86,3.44c-47.39406,0 -86,33.98344 -86,76.325c0,20.80125 9.54063,39.47938 24.8325,53.32c-2.31125,7.13531 -7.47125,12.76563 -12.685,17.0925c-2.80844,2.32469 -5.49594,4.31344 -7.6325,6.235c-1.06156,0.95406 -2.02906,1.92156 -2.795,3.1175c-0.76594,1.19594 -1.45125,2.9025 -0.9675,4.73l0.43,1.3975l1.1825,0.7525c4.43438,2.55313 9.95719,2.99656 15.91,2.58c5.95281,-0.41656 12.44313,-1.78719 18.8125,-3.5475c12.3625,-3.41312 23.9725,-8.2775 30.1,-10.965c6.04688,1.26313 12.12063,2.0425 18.49,2.0425c47.39406,0 86,-33.98344 86,-76.325c0,-42.32812 -38.27,-76.755 -85.6775,-76.755zM86,10.32c44.10188,0 78.7975,31.69906 78.7975,69.875c0,38.14906 -35.00469,69.445 -79.12,69.445c-6.28875,0 -12.21469,-0.61812 -18.1675,-1.935l-1.1825,-0.3225l-0.9675,0.5375c-5.75125,2.53969 -17.91219,7.49813 -30.1,10.8575c-6.10062,1.67969 -12.17437,2.96969 -17.415,3.3325c-3.50719,0.24188 -5.67062,-0.59125 -8.0625,-1.1825c1.70656,-1.46469 4.04469,-3.21156 6.7725,-5.4825c5.99313,-4.97187 13.18219,-11.89219 15.695,-22.145l0.5375,-2.15l-1.72,-1.29c-15.1575,-12.84625 -24.1875,-30.53 -24.1875,-50.095c0,-38.14906 35.00469,-69.445 79.12,-69.445zM81.915,44.075c-1.03469,0 -1.3975,0.60469 -1.3975,1.29v9.03c0,1.03469 0.71219,1.29 1.3975,1.29h8.17c1.03469,0 1.3975,-0.60469 1.3975,-1.29v-9.03c0,-1.03469 -0.71219,-1.29 -1.3975,-1.29zM82.2375,69.1225c-1.03469,0 -1.3975,0.71219 -1.3975,1.3975v46.1175c0,1.03469 0.71219,1.3975 1.3975,1.3975v0.3225h7.8475c1.03469,0 1.3975,-0.71219 1.3975,-1.3975v-46.44c0,-1.03469 -0.71219,-1.3975 -1.3975,-1.3975z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <!-- Blog -->
+                    <li class="nav-item  pl-4 pl-lg-0 pl-md-4 pl-sm-4">
+                        <a class="nav-link d-flex flex-lg-column align-items-center" href="blog.html">
+                            <!-- Blog icon -->
+                            <span class="pr-1">
+                                <svg fill="#08415c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" x="0px"
+                                    y="0px" width="35px" height="35px">
+                                    <path
+                                        d="M18,21.5c0,3.58-2.92,6.5-6.5,6.5S5,25.08,5,21.5v-11C5,10.22,5.22,10,5.5,10h3C8.78,10,9,10.22,9,10.5v11 c0,1.38,1.12,2.5,2.5,2.5s2.5-1.12,2.5-2.5S12.88,19,11.5,19c-0.28,0-0.5-0.22-0.5-0.5v-3c0-0.28,0.22-0.5,0.5-0.5 C15.08,15,18,17.92,18,21.5z" />
+                                    <path
+                                        d="M23.99,18.48C24,18.76,23.76,19,23.48,19H21.5c-0.28,0-0.5-0.22-0.5-0.5h-0.03c-0.23-3.47-3-6.24-6.47-6.47V12 c-0.28,0-0.5-0.22-0.5-0.5V9.52c0-0.28,0.24-0.52,0.52-0.51C19.62,9.28,23.72,13.38,23.99,18.48z" />
+                                    <path
+                                        d="M28.99,18.48C29,18.76,28.77,19,28.48,19H26.5c-0.28,0-0.5-0.22-0.5-0.5h-0.02C25.74,12.27,20.73,7.26,14.5,7.02V7 C14.22,7,14,6.78,14,6.5V4.52c0-0.29,0.24-0.52,0.52-0.51C22.38,4.28,28.72,10.62,28.99,18.48z" />
+                                </svg>
+                            </span>
+                            <span>Blog</span>
+                        </a>
+                    </li>
+                    <!-- contact us -->
+                    <li class="nav-item pl-4 pl-lg-0 pl-md-4 pl-sm-4">
+                        <a class="nav-link d-flex flex-lg-column align-items-center" href="#contact-us">
+                            <!-- Contact Us icon -->
+                            <span class="pr-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#08415c">
+                                            <path
+                                                d="M18.74531,21.5l3.225,12.9h1.67969v116.1h34.4v-4.3h-30.1v-111.8c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15h-2.62031l-1.075,-4.3h101.99063l-1.075,4.3h-2.62031c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15v55.9h4.3v-55.9h1.67969l3.225,-12.9zM36.55,30.1c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM45.15,30.1c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM53.75,30.1c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM62.35,30.1c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM70.95,30.1c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM79.55,30.1c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM88.15,30.1c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM96.75,30.1c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM105.35,30.1c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM113.95,30.1c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM36.55,43v17.2h21.5v-2.15v-15.05zM64.5,43v17.2h21.5v-2.15v-15.05zM92.45,43v17.2h21.5v-2.15v-15.05zM40.85,47.3h12.9v8.6h-12.9zM68.8,47.3h12.9v8.6h-12.9zM96.75,47.3h12.9v8.6h-12.9zM36.55,68.8v17.2h21.5v-2.15v-15.05zM64.5,68.8v17.2h21.5v-2.15v-15.05zM92.45,68.8v17.2h21.5v-2.15v-15.05zM40.85,73.1h12.9v8.6h-12.9zM68.8,73.1h12.9v8.6h-12.9zM96.75,73.1h12.9v8.6h-12.9zM36.55,94.6v17.2h21.5v-2.15v-15.05zM73.1,94.6c-5.91341,0 -10.75,4.83659 -10.75,10.75v55.9c0,5.91341 4.83659,10.75 10.75,10.75h88.15c5.91341,0 10.75,-4.83659 10.75,-10.75v-55.9c0,-5.91341 -4.83659,-10.75 -10.75,-10.75zM40.85,98.9h12.9v8.6h-12.9zM73.1,98.9h88.15c3.59389,0 6.45,2.85611 6.45,6.45v55.9c0,3.59389 -2.85611,6.45 -6.45,6.45h-88.15c-3.59389,0 -6.45,-2.85611 -6.45,-6.45v-55.9c0,-3.59389 2.85611,-6.45 6.45,-6.45zM94.6,111.8c-7.0997,0 -12.9,5.8003 -12.9,12.9c0,4.34567 2.31288,8.01543 5.62695,10.35527c-5.81902,2.76228 -9.92695,8.59336 -9.92695,15.44473h4.3c0,-7.15278 5.74722,-12.9 12.9,-12.9c7.15278,0 12.9,5.74722 12.9,12.9h4.3c0,-6.85137 -4.10793,-12.68245 -9.92695,-15.44473c3.31407,-2.33985 5.62695,-6.0096 5.62695,-10.35527v-2.15h-0.43672c-1.06491,-6.04273 -6.12536,-10.75 -12.46328,-10.75zM116.1,113.95v4.3h40.85v-4.3zM94.6,116.1c4.7769,0 8.6,3.8231 8.6,8.6c0,4.7769 -3.8231,8.6 -8.6,8.6c-4.7769,0 -8.6,-3.8231 -8.6,-8.6c0,-4.7769 3.8231,-8.6 8.6,-8.6zM36.55,120.4v17.2h21.5v-2.15v-15.05zM40.85,124.7h12.9v8.6h-12.9zM116.1,124.7v4.3h36.55v-4.3zM116.1,135.45v4.3h40.85v-4.3zM75.25,156.95c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM83.85,156.95c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM92.45,156.95c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM101.05,156.95c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM109.65,156.95c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM118.25,156.95c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM126.85,156.95c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM135.45,156.95c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15zM144.05,156.95c-1.18465,0 -2.15,0.96535 -2.15,2.15c0,1.18465 0.96535,2.15 2.15,2.15c1.18465,0 2.15,-0.96535 2.15,-2.15c0,-1.18465 -0.96535,-2.15 -2.15,-2.15z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span>Contact Us</span>
+                        </a>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-4">
+                    <!-- login and signup -->
+                    <li class="nav-item pl-4 pl-lg-0 pl-md-4 pl-sm-4">
+                        <a class="nav-link d-flex flex-lg-column align-items-center login-btn">
+                            <!-- login icon  -->
+                            <span class="pr-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#08415c">
+                                            <path
+                                                d="M86,8.13074c-19.95469,0 -39.90938,7.59114 -55.09375,22.77551c-30.36875,30.36875 -30.36875,79.81875 0,110.1875c15.18437,15.18437 35.20625,22.84375 55.09375,22.84375c19.8875,0 39.90937,-7.65938 55.09375,-22.84375c1.6125,-1.6125 1.6125,-4.16458 0,-5.6427c-1.6125,-1.6125 -4.16458,-1.6125 -5.6427,0c-27.27812,27.27812 -71.62187,27.27812 -98.76562,0c-27.27812,-27.27812 -27.28022,-71.62397 -0.13647,-98.9021c27.27812,-27.14375 71.62397,-27.14375 98.9021,0c1.47813,1.6125 4.0302,1.6125 5.6427,0c1.6125,-1.6125 1.6125,-4.16458 0,-5.6427c-15.18438,-15.18437 -35.13906,-22.77551 -55.09375,-22.77551zM137.0625,61.8125c-0.94063,0 -2.0151,0.40365 -2.82135,1.2099c-1.6125,1.6125 -1.6125,4.16457 0,5.6427l13.30365,13.30365h-41.38855c-2.28437,0 -4.03125,1.74688 -4.03125,4.03125c0,2.28437 1.74688,4.03125 4.03125,4.03125h41.38855l-13.30365,13.30365c-1.6125,1.6125 -1.6125,4.16457 0,5.6427c1.6125,1.6125 4.16458,1.6125 5.6427,0l20.15625,-20.15625c0.80625,-0.80625 1.2099,-1.74635 1.2099,-2.82135c0,-1.075 -0.40365,-2.0151 -1.2099,-2.82135l-20.15625,-20.15625c-0.80625,-0.80625 -1.88073,-1.2099 -2.82135,-1.2099zM86,81.96875c-2.2264,0 -4.03125,1.80485 -4.03125,4.03125c0,2.2264 1.80485,4.03125 4.03125,4.03125c2.2264,0 4.03125,-1.80485 4.03125,-4.03125c0,-2.2264 -1.80485,-4.03125 -4.03125,-4.03125z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg></span>
+                            <span id="loggedIn">Login / Sign Up</span>
+                        </a>
+                        </a>
+                    </li>
+                    <li class="nav-item  pl-4 pl-lg-0 pl-md-4 pl-sm-4">
+                        <!-- Add to cart -->
+                        <a class="nav-link d-flex flex-lg-column align-items-center" id="user-cart">
+                            <!--Add to Cart icon-->
+                            <span class="pr-4">
+                                <span class="total-quantity ">0</span>
+                                <svg width="3.2em" height="3em" viewBox="0 0 16 16" class="bi bi-cart4"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M0 2.1A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                                </svg>
+                            </span>
+                            <span>Cart</span>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- first navbar -->
+        <!-- second navbar  shows all the categories for auto parts-->
+        <nav class="category-navbar d-none d-lg-inline d-md-inline d-sm-none ">
+            <ul
+                class="d-flex justify-content-around align-items-center list-unstyled mx-5 my-3 my-lg-0 my-md-0 my-sm-3 py-2 rounded-pill font-weight-bold">
+                <li class="dropdown">
+                    <span class="font-weight-bolder text-white">SHOP BY CATEGORY:</span>
+                </li>
+                <li class="dropdown">
+                    <!-- first category -->
+                    <a class=" dropdown-toggle text-decoration-none  text-white " id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Tyre and Wheels</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="product.html?id=1&c_id=1">Wheel Accessories <span
+                                class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
+                        <a class="dropdown-item" href="product.html?id=1&c_id=2">Nuts <span class="category-arrow"><i
+                                    class="fas fa-chevron-right"></i></span> </a>
+                        <a class="dropdown-item" href="product.html?id=1&c_id=3">Tyres <span class="category-arrow"><i
+                                    class="fas fa-chevron-right"></i></span> </a>
+                    </div>
+                </li>
+                <li class=" dropdown ">
+                    <!-- Second category -->
+                    <a class="dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Exterior</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="product.html?id=2&c_id=1">Window Visors <span
+                                class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
+                        <a class="dropdown-item" href="product.html?id=2&c_id=2">Door Handles, Locks & Accessories <span
+                                class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
+                        <a class="dropdown-item" href="product.html?id=2&c_id=3">Truck Accessories <span
+                                class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
+                    </div>
+                </li>
+                <li class=" dropdown ">
+                    <!-- third category -->
+                    <a class="dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"> Interior</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="product.html?id=3&c_id=1">Mobile Electronics <span
+                                class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
+                        <a class="dropdown-item" href="product.html?id=3&c_id=2">Horns and Components <span
+                                class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
+                        <a class="dropdown-item" href="product.html?id=3&c_id=3">Switches, Relays and Wiring Components
+                            <span class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
+                    </div>
+                </li>
+                <li class=" dropdown ">
+                    <!-- fourth category -->
+                    <a class="dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Car Parts</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="product.html?id=4&c_id=1">Back & Head Lights <span
+                                class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
+                        <a class="dropdown-item" href="product.html?id=4&c_id=2">Side Mirrors <span
+                                class="fas fa-chevron-right"></i></span> </a>
+                        <a class="dropdown-item" href="product.html?id=4&c_id=3">Wiper Blades <span
+                                class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Products-->
+    <section class="container">
+        <h1 class="text-center">PRODUCTS</h1>
+        <div class="col-sm-12 product-navigation">
+        </div>
+        <div class="row products-row products-container">
+            <!-- list of products according to category from products.js -->
+        </div>
+    </section>
+
+    <!-- footer contains 3 columns-->
+    <footer>
+        <section class="pb-3 footer-section">
+            <section class="mt-5 d-flex container justify-content-between align-items-top flex-wrap">
+                <div id="contact-us">
+                    <!-- contact us  -->
+                    <ul class="container list-unstyled">
+                        <li>
+                            <h6 class="font-weight-bold">Contact Us</h6>
+                        </li>
+                        <li>
+                            <!-- icon -->
+                            <span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15" height="15"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M86,14.33333c-11.87517,0 -21.5,9.62483 -21.5,21.5c0,11.87517 9.62483,21.5 21.5,21.5c11.87517,0 21.5,-9.62483 21.5,-21.5c0,-11.87517 -9.62483,-21.5 -21.5,-21.5zM64.5,71.66667c-2.58456,-0.03655 -4.98858,1.32136 -6.29153,3.55376c-1.30295,2.2324 -1.30295,4.99342 0,7.22582c1.30295,2.2324 3.70697,3.59031 6.29153,3.55376h7.16667v57.33333h-7.16667c-2.58456,-0.03655 -4.98858,1.32136 -6.29153,3.55376c-1.30295,2.2324 -1.30295,4.99342 0,7.22582c1.30295,2.2324 3.70697,3.59031 6.29153,3.55376h43c2.58456,0.03655 4.98858,-1.32136 6.29153,-3.55376c1.30295,-2.2324 1.30295,-4.99342 0,-7.22582c-1.30295,-2.2324 -3.70697,-3.59031 -6.29153,-3.55376h-7.16667v-64.5c0,-3.956 -3.21067,-7.16667 -7.16667,-7.16667h-14.33333z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg></span>
+                            <!-- about us contains an anchor link that directs the user to the about us section -->
+                            <a href="../index.html#about-us" class="text-decoration-none"> About</a>
+                        </li>
+                        <!-- address -->
+                        <li><span><i class="fas fa-map-marker-alt"></i></span> Address: <br> Dholaikhal, Shop No. 31
+                        </li>
+                        <!-- phone number -->
+                        <li><span><i class="fas fa-phone-alt"></i></span> Phone No: <br> +8801*********</li>
+                        <!-- email address -->
+                        <li><span><i class="fas fa-envelope"></i></span> Email: <address class="mb-0"><a
+                                    href="mailto:project@gmail.com" class="text-decoration-none">project@gmail.com</a>
+                            </address>
+                        </li>
+                        <!-- facebook -->
+                        <li><span>Facebook Page: <br><i class="fab fa-facebook-f"></i></span><a
+                                href="https://www.facebook.com/project" class="text-decoration-none">
+                                Facebook</a>
+                    </ul>
+                </div>
+                <!-- Categories column -->
+                <div>
+                    <ul class="list-unstyled container">
+                        <li>
+                            <h6 class="font-weight-bold">Categories</h6>
+                        </li>
+                        <li><span></span><a href="#1" class="text-decoration-none">Tyres and Wheels</a></li>
+                        <li><span></span><a href="#2" class="text-decoration-none">Exterior</a></li>
+                        <li><span></span><a href="#3" class="text-decoration-none">Interior</a></li>
+                        <li><span></span><a href="#4" class="text-decoration-none">Car Parts</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <!-- 1st ul -->
+                    <ul class="list-unstyled container">
+                        <li>
+                            <!-- icon -->
+                            <span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M81.17594,6.88c-1.66625,-0.01344 -3.10406,1.1825 -3.39969,2.82188l-1.88125,10.29312c-1.6125,0.52406 -3.17125,1.15563 -4.70312,1.90813l-8.45219,-6.10063c-1.35719,-0.98094 -3.23844,-0.84656 -4.42094,0.34938l-7.35031,7.22937c-1.1825,1.1825 -1.35719,3.03688 -0.40312,4.4075l5.93937,8.6c-0.77937,1.51844 -1.43781,3.07719 -1.96187,4.67625l-10.30656,1.66625c-1.65281,0.25531 -2.87562,1.67969 -2.88906,3.37281l-0.06719,10.32c-0.01344,1.66625 1.1825,3.10406 2.82188,3.39969l10.33344,1.88125c0.51062,1.59906 1.15562,3.14438 1.90812,4.66281l-6.14094,8.4925c-0.98094,1.35719 -0.84656,3.23844 0.33594,4.43437l7.25625,7.33688c1.16906,1.1825 3.02344,1.35719 4.39406,0.40312l8.7075,-5.99312c1.505,0.76594 3.05031,1.3975 4.63594,1.92156l1.77375,10.4275c0.28219,1.65281 1.69313,2.86219 3.37281,2.87562l10.30656,0.05375c1.69312,0.01344 3.13094,-1.20937 3.41312,-2.86219l1.76031,-10.41406c1.57219,-0.51062 3.10406,-1.12875 4.59563,-1.88125l8.64031,6.14094c1.37063,0.9675 3.225,0.80625 4.4075,-0.36281l7.35031,-7.24281c1.19594,-1.1825 1.35719,-3.06375 0.37625,-4.44781l-6.1275,-8.6c0.76594,-1.49156 1.41094,-3.01 1.935,-4.56875l10.46781,-1.77375c1.63937,-0.28219 2.84875,-1.70656 2.86219,-3.38625l0.05375,-10.30656c0.01344,-1.67969 -1.19594,-3.1175 -2.86219,-3.39969l-10.37375,-1.76031c-0.51063,-1.58562 -1.14219,-3.13094 -1.88125,-4.64937l6.10062,-8.61344c0.98094,-1.35719 0.83313,-3.21156 -0.34937,-4.4075l-7.25625,-7.33688c-1.1825,-1.1825 -3.06375,-1.35719 -4.43438,-0.37625l-8.51937,6.04688c-1.505,-0.76594 -3.03688,-1.41094 -4.60906,-1.935l-1.66625,-10.34688c-0.26875,-1.66625 -1.69312,-2.88906 -3.38625,-2.9025zM84.02469,13.77344l4.515,0.02688l1.49156,9.29875c0.215,1.35719 1.22281,2.44562 2.53969,2.78156c2.52625,0.645 4.95844,1.67969 7.24281,3.06375c1.16906,0.72562 2.66063,0.67187 3.77594,-0.12094l7.67281,-5.44219l3.17125,3.19813l-5.52281,7.74c-0.77937,1.11531 -0.84656,2.58 -0.14781,3.74906c1.35719,2.29781 2.35156,4.74344 2.94281,7.25625c0.3225,1.34375 1.41094,2.365 2.78156,2.60688l9.33906,1.57219l-0.02688,4.50156l-9.43312,1.58562c-1.34375,0.22844 -2.43219,1.23625 -2.76813,2.55313c-0.63156,2.49937 -1.63937,4.91812 -3.02344,7.17562c-0.71219,1.1825 -0.65844,2.67406 0.14781,3.78938l5.49594,7.75344l-3.18469,3.15781l-7.80719,-5.53625c-1.11531,-0.79281 -2.58,-0.84656 -3.74906,-0.14781c-2.28438,1.35719 -4.70313,2.32469 -7.21594,2.94281c-1.34375,0.3225 -2.35156,1.41094 -2.58,2.76812l-1.58563,9.37938l-4.48812,-0.04031l-1.58563,-9.40625c-0.22844,-1.34375 -1.23625,-2.43219 -2.58,-2.75469c-2.48594,-0.61813 -4.93156,-1.63938 -7.21594,-3.01c-1.15563,-0.69875 -2.62031,-0.65844 -3.73563,0.12094l-7.83406,5.40188l-3.17125,-3.21156l5.52281,-7.6325c0.80625,-1.11531 0.87344,-2.60688 0.16125,-3.78938c-1.35719,-2.29781 -2.35156,-4.74344 -2.96969,-7.26969c-0.3225,-1.31687 -1.38406,-2.32469 -2.72781,-2.58l-9.29875,-1.67969l0.04031,-4.515l9.25844,-1.49156c1.35719,-0.215 2.45906,-1.22281 2.795,-2.55312c0.645,-2.53969 1.65281,-4.98531 3.05031,-7.26969c0.71219,-1.15562 0.67188,-2.63375 -0.1075,-3.74906l-5.33469,-7.74l3.19812,-3.17125l7.60563,5.4825c1.10187,0.80625 2.58,0.87344 3.7625,0.18812c2.31125,-1.38406 4.77031,-2.365 7.31,-2.98312c1.33031,-0.30906 2.33812,-1.38406 2.58,-2.71438zM85.95969,34.52094c-4.42094,-0.02687 -8.85531,1.62594 -12.22812,4.97188c-6.74563,6.665 -6.79938,17.64344 -0.13438,24.4025c6.665,6.74562 17.65688,6.79937 24.4025,0.13437c6.74563,-6.665 6.79938,-17.65687 0.13438,-24.4025c-3.3325,-3.37281 -7.75344,-5.07937 -12.17438,-5.10625zM85.93281,41.36063c2.64719,0.01344 5.28094,1.04812 7.31,3.10406c4.05812,4.09844 4.01781,10.61563 -0.08063,14.66031c-4.09844,4.05813 -10.61562,4.03125 -14.67375,-0.06719c-4.05812,-4.11188 -4.01781,-10.62906 0.08063,-14.67375c2.05594,-2.02906 4.70312,-3.03688 7.36375,-3.02344zM49.61125,96.32c-8.97625,0 -13.115,2.15 -17.57625,3.87c0,0.01344 0,0.01344 0,0.01344c-8.55969,3.3325 -23.20656,10.23938 -23.20656,10.23938c-1.72,0.80625 -2.45906,2.86219 -1.65281,4.58219c0.81969,1.72 2.87562,2.45906 4.59562,1.65281c0,0 14.74094,-6.94719 22.74969,-10.06469c4.945,-1.92156 7.095,-3.41313 15.09031,-3.41313c17.64344,0 16.93125,7.65938 24.37563,12.04c0.1075,0.06719 0.22844,0.13438 0.34937,0.17469c9.23156,4.13875 19.14844,4.98531 27.14375,4.98531c3.53406,0 5.76469,0.81969 6.97406,1.73344c1.19594,0.92719 1.62594,1.88125 1.62594,3.42656c0,1.81406 -0.45687,2.67406 -1.65281,3.5475c-1.1825,0.86 -3.46687,1.6125 -6.94719,1.6125h-18.06c-7.57875,0 -20.62656,-3.3325 -20.62656,-3.3325c-1.1825,-0.3225 -2.45906,0.02688 -3.3325,0.90031c-0.87344,0.87344 -1.20937,2.15 -0.88687,3.3325c0.33594,1.19594 1.27656,2.12312 2.4725,2.43219c0,0 12.94031,3.5475 22.37344,3.5475h18.06c3.50719,0 6.5575,-0.57781 9.11063,-1.84094c0.33594,-0.09406 0.65844,-0.24188 0.94062,-0.44344l32.62625,-21.40594c4.90469,-2.83531 8.25063,-3.62812 10.2125,-3.60125c1.96188,0.04031 2.63375,0.63156 3.225,1.38406c0.87344,1.12875 0.92719,1.55875 0.36281,2.86219c-0.57781,1.31688 -2.2575,3.34594 -5.28094,5.44219c0,0 0,0 -0.01344,0c-3.73562,2.60687 -45.51281,29.83125 -50.33687,32.5725c-3.64156,2.06937 -6.53063,4.24625 -9.82281,5.17344c-3.29219,0.91375 -7.17562,0.91375 -13.59875,-2.15c-4.28656,-2.05594 -22.53469,-11.40844 -28.44719,-14.405c-3.29219,-1.66625 -6.10063,-2.60688 -8.96281,-2.44563c-2.87562,0.16125 -5.30781,1.38406 -7.82062,2.96969c-0.01344,0 -0.02688,0.01344 -0.02688,0.02687l-8.51937,5.44219c-1.075,0.645 -1.70656,1.8275 -1.66625,3.07719c0.04031,1.24969 0.76594,2.37844 1.88125,2.94281c1.12875,0.56438 2.45906,0.48375 3.49375,-0.22844l8.47906,-5.42875c2.19031,-1.37062 3.42656,-1.86781 4.55531,-1.935c1.12875,-0.06719 2.67406,0.29563 5.4825,1.72c5.85875,2.96969 23.82469,12.18781 28.595,14.45875c7.48469,3.58781 13.545,3.92375 18.39594,2.58c4.85094,-1.35719 8.30438,-4.07156 11.38156,-5.81844c6.63813,-3.77594 46.07719,-29.57594 50.87438,-32.90844c3.64156,-2.53969 6.31562,-5.18688 7.67281,-8.35813c1.35719,-3.17125 0.91375,-7.04125 -1.24969,-9.80937c0,0 0,0 0,-0.01344c-1.70656,-2.17687 -4.73,-3.95062 -8.53281,-4.03125c-2.16344,-0.04031 -4.56875,0.45688 -7.24281,1.43781c-0.49719,-0.65844 -1.24969,-1.51844 -2.28438,-2.27094c-2.00219,-1.49156 -5.18687,-2.83531 -9.51375,-2.83531c-2.21719,0 -4.03125,0.51063 -5.4825,1.11531c-2.06937,-1.97531 -5.73781,-4.48813 -11.0725,-4.48813c-4.32687,0 -8.385,1.45125 -11.20687,3.1175c-0.52406,0.30906 -1.78719,1.10188 -3.93719,2.44563c-2.15,1.34375 -4.95844,3.07719 -7.72656,4.81062c-4.42094,2.75469 -7.16219,4.47469 -8.74781,5.46906c-3.37281,-0.67187 -6.74563,-1.62594 -9.93031,-3.02344c-2.71437,-1.74688 -7.94156,-12.88656 -27.735,-12.88656zM118.895,103.26719c2.17688,0 3.73563,0.55094 4.8375,1.19594l-15.91,9.86312c-1.89469,-0.5375 -4.01781,-0.80625 -6.3425,-0.80625c-0.99437,0 -2.08281,-0.06719 -3.1175,-0.1075c0.645,-0.40312 0.645,-0.40312 1.30344,-0.80625c2.76813,-1.73344 5.56313,-3.48031 7.72656,-4.82406c2.15,-1.33031 3.91031,-2.41875 3.78938,-2.35156c1.62594,-0.9675 5.16,-2.16344 7.71312,-2.16344zM135.45,106.64c2.795,0 4.3,0.71219 5.21375,1.34375c-0.05375,0.02688 -0.09406,0.05375 -0.14781,0.09406l-23.77094,15.5875c-0.3225,-1.92156 -1.11531,-3.7625 -2.37844,-5.29438l16.62219,-10.30656l0.01344,-0.02688c0.13438,-0.06719 3.01,-1.3975 4.44781,-1.3975z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg></span>
+                            <h6 class="d-inline font-weight-bold">Great Discounts!</h6>
+                        </li>
+                        <li>
+                            <p>Exclusive Products</p>
+                        </li>
+
+                        <li>
+                            <p>Authentic products</p>
+                        </li>
+                        <li>
+                            <p>Quick Delivery</p>
+                        </li>
+
+                    </ul>
+                    <!-- second ul -->
+                    <ul class="list-unstyled container">
+                        <li>
+                            <!-- icon -->
+                            <span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M86.19597,14.33333c-2.35067,0 -4.55274,1.15842 -5.89291,3.09342l-32.52995,47.07324h-33.42578c-2.24317,0 -4.34927,1.04297 -5.71094,2.82747c-1.34733,1.77733 -1.80544,4.08567 -1.21777,6.24284l18.35059,66.41764c1.72,6.2135 7.3726,10.51205 13.81543,10.51205h40.49447l-4.18522,-4.18522c-5.59717,-5.59717 -5.59717,-14.67106 0,-20.26823l10.13411,-10.13412c5.59717,-5.59717 14.67106,-5.59717 20.26823,0l15.55111,15.55111l36.93913,-36.93913l5.79492,-20.9401c0.59483,-2.16433 0.14356,-4.4795 -1.20378,-6.25684c-1.36167,-1.7845 -3.46777,-2.82747 -5.71094,-2.82747h-33.39778l-32.15202,-47.04525c-1.333,-1.94933 -3.53507,-3.11425 -5.89291,-3.12142zM86.16797,34.15365l20.73014,30.36035h-20.89811h-20.81413zM161.86589,111.71322l-40.01856,40.01855l-25.68522,-25.68522l-10.13412,10.13411l35.81934,35.81934l50.15267,-50.15267z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg></span>
+                            <h6 class="d-inline font-weight-bold">Easy Online Shopping</h6>
+                        </li>
+                        <li>
+                            <p>Get all Your auto parts</p>
+
+                        </li>
+
+                        <li>
+                            <p>Full Customer Support</p>
+                        </li>
+                        <li>
+                            <p>Cash on Delivery</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <!-- copyright section -->
+        <div class="w-100 copyright-section">
+            <small class="ml-5">
+                &copy Copyright 2021
+            </small>
+        </div>
+    </footer>
+
+    <!-- scripting files -->
+
+    <!-- sweet alert scripting -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- product page js external files -->
+    <script src="../assets/script/products.js"></script>
+
+    <script src="../assets/script/product_details.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
